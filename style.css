@@ -4,14 +4,14 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: #f3f0f0;
+  background-color: #ffffff;
 }
 
 /* Header Styles (Lab 1) */
 header {
-  background-color: #000000;
-  color: #fff;
-  padding: 30px;
+  background-color: #e10e0e;
+  color: #e9c41b;
+  padding: 50px;      /* 30px*/
   text-align: center;
 }
 
@@ -26,31 +26,39 @@ header h2{
 }
 
 header p {
-  font-size: 20px;
+  font-size: 50px; /* 20px */
 }
 
 /* Profile Image Styling (Lab 1) */
 header img {
-  border-radius: 50%;
+  border-radius:100%; 
   margin-top: 20px;
+                              
+}
+nav {
+  background-color: #ecdddd;
+  border:#35424a;
 }
 
 /* Section Styles (Lab 1) */
 section {
   padding: 20px;
-  background-color: #fff;
+  background-color: #d0cccc;
   margin: 20px;
+  border:#857a7a
 }
 
 section h2 {
   border-bottom: 2px solid #e8491d;
   padding-bottom: 10px;
 }
-
-/* About Me Section Styling (Lab 1) */
-section#about {
-  background-color: #e2e2e2;
+section h3 {
+   border-bottom: 2px solid #e8491d;
 }
+/* Navigation Styles (Lab 1) */
+
+
+/* Centering Iframe (Lab 1) */
 iframe.centered{
   display: block;
   margin: 0 auto;
@@ -63,15 +71,16 @@ section#resume ul {
 }
 
 
+
 section#resume li {
-  background-color: #f4f4f4;
+  background-color: #ffffff;
   margin-bottom: 10px;
   padding: 20px;
   border-left: 4px solid #50b3a2;
+  color :#2d2a2a;
 }
 
   
-
 
 
 
@@ -86,6 +95,23 @@ section#projects a {
 section#projects a:hover {
   text-decoration: underline;
 }
+
+article{
+  padding: 20px;
+  background-color: #f5efef;
+  margin: 20px;
+  margin-bottom: 10px;
+  
+}
+footer{
+  background-color: #f8f4f4;
+  color: #e9c41b;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+
 
 /* Contact Form Styling (Lab 1) */
 form {
@@ -151,7 +177,7 @@ form input[placeholder="Full name"],
 form input[placeholder="something@gmail.com"],
 form input[placeholder="Your Message"]
  {
-  color:#e8491d
+  color:#0b0403
 }
 
 /* Footer Styles (Lab 1) */
